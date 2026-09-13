@@ -6,18 +6,18 @@ This repository contains implementations and experiments for different statistic
 
 Currently, the repository includes:
 
-Local Regression — simple local regression using one predictor on an air pollution dataset.
-Poisson Regression — regression for modelling bird count data using a Poisson response distribution.
+- Local Regression — simple local regression using one predictor on an air pollution dataset.
+- Poisson Regression — regression for modelling bird count data using a Poisson response distribution.
 
 Additional statistical methods and models may be added to the repository over time.
 
 ## Data
 
-For the modelling data from <a href=https://github.com/luchem/bern02></a> is utilized.
+For the modelling data from <a href="https://github.com/luchem/bern02"></a> is utilized.
 
 The original dataset is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
-For more information, see the <a href=[https://github.com/luchem/bern02](https://github.com/luchem/bern02/blob/main/LICENSE)><u> CC BY-SA 4.0 license</u></a>. license.
+For more information, see the <a href="https://github.com/luchem/bern02/blob/main/LICENSE"><u> CC BY-SA 4.0 license</u></a>. license.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
