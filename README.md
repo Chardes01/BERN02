@@ -33,7 +33,7 @@ For more information, see the <a href="https://github.com/luchem/bern02/blob/mai
 - 'Task2_Poisson_regression/': Here the files for modelling a Poisson regression based on bird count data are provided.
   - `Task2.ipynb`: Here the Poisson regression is applied on the <a href= "https://github.com/Chardes01/BERN02/blob/main/Task_2_Poisson_regression/bird_count.csv"><u>bird count dataset</u></a>.
   - `bird_count.csv`: The bird count dataset.
-
+  - `samples.csv`: entails three samples of data (hypothetical observations) from the time period by sampling from the points, created by the Poisson regression model.
 
 ## Prerequisites
 
