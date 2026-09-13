@@ -13,7 +13,8 @@ Additional statistical methods and models may be added to the repository over ti
 
 ## Data
 
-For the modelling data from <a href="https://github.com/luchem/bern02"> is utilized.
+For the modelling data from <a href="https://github.com/luchem/bern02"><u>https://github.com/luchem/bern02</u></a>.
+is utilized.
 
 The original dataset is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
