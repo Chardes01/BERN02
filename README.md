@@ -53,8 +53,8 @@ Install [uv](https://docs.astral.sh/uv/) before setting up the project.
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/Chardes01/BERN02
+cd BERN02
 ```
 
 Create the virtual environment and install all required dependencies:
