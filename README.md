@@ -22,16 +22,25 @@ For more information, see the <a href="https://github.com/luchem/bern02/blob/mai
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+##  FAIR data principles
+
+This notebook follows the fair data principles, meaning it aims do be findable, accessible, interoperable and reusable. To ensure that the project provides:
+- clearly documented and linked data sources and metadata
+- all the code and data can be accessed through this repository
+- code and data is provided in standard formats and can be used by installing common software or running the code in cloud based platforms such as Google Colab
+- it entails data sources and licenses as well as explanations to use the code and reproduce the results
+
 ## Content
 
 - 'Task_1_Regression/': 
-  - `local_regression.ipynb`: Here the local regression is implemented and applied to the air pollution dataset <a href= "https://github.com/Chardes01/BERN02/blob/main/Task_1_Regression/Task_1_Regression/pollution_cleaneddata.csv"><u>pollution dataset</u></a> and results are visualized.
+  - `local_regression.ipynb`: Here the local regression is implemented and applied to the air pollution dataset <a href= "https://github.com/luchem/bern02/blob/main/Labs/pollution_cleaneddata.csv"><u>pollution dataset</u></a> and results are visualized.
   - `pollution_cleaneddata.csv`: Dataset used for the task and only the following variables:
     - Total age-adjusted mortality rate per 100,000 (MORT)
     - families with income <3000$ (POOR)
+   Further information and metadata can be found <a href="https://github.com/luchem/bern02/blob/main/Labs/pollution_metadata.txt"><u>here</u></a>
  
 - 'Task2_Poisson_regression/': Here the files for modelling a Poisson regression based on bird count data are provided.
-  - `Task2.ipynb`: Here the Poisson regression is applied on the <a href= "https://github.com/Chardes01/BERN02/blob/main/Task_2_Poisson_regression/bird_count.csv"><u>bird count dataset</u></a>.
+  - `Task2.ipynb`: Here the Poisson regression is applied on the <a href= "https://github.com/luchem/bern02/blob/main/Labs/bird_count.csv"><u>bird count dataset</u></a>.
   - `bird_count.csv`: The bird count dataset.
   - `samples.csv`: entails three samples of data (hypothetical observations) from the time period by sampling from the points, created by the Poisson regression model.
 
@@ -59,3 +68,5 @@ The required Python version and dependencies are specified in `pyproject.toml`. 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+
