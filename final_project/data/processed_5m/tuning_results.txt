@@ -1,0 +1,20 @@
+Geographic holdout evaluation
+Holdout rows: 624:2499
+Holdout columns: 2193:3205
+Training patches available: 2306
+Final holdout patches: 1004
+MAE: 0.6840
+RMSE: 1.1059
+Bias: -0.0089
+Mean baseline MAE: 1.6121
+
+Best hyperparameters:
+n_blocks: 3
+kernel_size: 5
+l2_strength: 0.001
+filters_0: 16
+filters_1: 16
+dense_units: 32
+dropout: 0.35
+learning_rate: 0.001
+filters_2: 32
