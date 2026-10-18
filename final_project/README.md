@@ -57,10 +57,6 @@ final_project/
 └── tests/               # Tests, if applicable
 ```
 
-## 5. Reproducibility
-
-For reproducibility, document dataset versions, preprocessing steps, model configuration, training settings, data splits and evaluation metrics. Large datasets, temporary files and model checkpoints should generally be excluded from Git unless necessary, using a `.gitignore` file.
-
 ### License
 
 The Code is distributed under the MIT License. See LICENSE.txt for more information. The original data is distributed under the named licenses.
