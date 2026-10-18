@@ -8,6 +8,9 @@ Currently, the repository includes:
 
 - Local Regression — simple local regression using one predictor on an air pollution dataset.
 - Poisson Regression — regression for modelling bird count data using a Poisson response distribution.
+- Hierarchical Modelling
+- Resampling methods
+- final_project: see README.md in final_project for mor information.
 
 Additional statistical methods and models may be added to the repository over time.
 
