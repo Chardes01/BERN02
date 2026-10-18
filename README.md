@@ -8,8 +8,8 @@ Currently, the repository includes:
 
 - Local Regression — simple local regression using one predictor on an air pollution dataset.
 - Poisson Regression — regression for modelling bird count data using a Poisson response distribution.
-- Hierarchical Modelling
-- Resampling methods
+- Hierarchical Modelling - analysis whether descriptive social norms influence hotel guests' behaviour regarding towel reuse.
+- Resampling methods - 
 - final_project: see README.md in final_project for mor information.
 
 Additional statistical methods and models may be added to the repository over time.
@@ -46,10 +46,14 @@ This notebook follows the fair data principles, meaning it aims do be findable, 
   - `Task2.ipynb`: Here the Poisson regression is applied on the <a href= "https://github.com/luchem/bern02/blob/main/Labs/bird_count.csv"><u>bird count dataset</u></a>.
   - `bird_count.csv`: The bird count dataset.
   - `samples.csv`: entails three samples of data (hypothetical observations) from the time period by sampling from the points, created by the Poisson regression model.
+ 
+- 'Task3_Hierarchical_modelling/': Here the files for using a hierachical model to analyse towel reuse are provided.
+  - `Task_3_Report.ipynb`: Here the Poisson regression is applied on the <a href= "https://github.com/luchem/bern02/blob/main/Labs/towelData.csv"><u>towel dataset</u></a>.
+  - `towelData.csv`: Towel reuse data for different studies.
 
 ## Prerequisites
 
-Install [uv](https://docs.astral.sh/uv/) before setting up the project.
+Install [uv](https://docs.astral.sh/uv/) before setting up the project. Note that this environment applies to Task 1 - 4. For the final project see specific details.
 
 ## Installation
 
