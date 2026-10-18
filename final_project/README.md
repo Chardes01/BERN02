@@ -1,4 +1,4 @@
-# CNN-Based Urban Heat Map Prediction
+# Urban Heat Map Prediction Modelling
 
 ## 1. Project Overview
 
