@@ -2,9 +2,10 @@
 
 ## 1. Project Overview
 
-This project investigates the use of a statistical model (Lasso + Ridge) and a convolutional neural network (CNN) to predict urban heat maps for Malmö. Municipal open data from [Malmö Open Data](https://opendata.malmo.se/) and climate data from ECMWF are used to predict the Universal Thermal Climate Index (UTCI), modelled using SOLWEIG.
+This project investigates the use of a statistical model (ElasticNet: Lasso + Ridge) and a convolutional neural network (CNN) to predict urban heat maps for Malmö. Municipal open data from [Malmö Open Data](https://opendata.malmo.se/) and climate data from ECMWF are used to predict the Universal Thermal Climate Index (UTCI), modelled using SOLWEIG.
 
-## Lasso + Ridge Model
+## ElasticNet
+The elastic net method is a linear combination of the L1 (LASSO) and L2 (Ridge) penalties. Using LASSO alone could be problematic in this context, as LASSO notoriously does not handle heavily correlated data well. In the case of spatial data, this is a real concern. Combining the feature selection advantage of LASSO with Ridge, in theory therefore makes for a better approach.
 
 
 ## 2. CNN-Model
