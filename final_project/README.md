@@ -43,18 +43,20 @@ final_project/
 │   ├── processed_5m/       # prepared data for a resolution of 5m
 │       └── input/         # static input files (buildings, tree canopy, landuse)
 │       └── targets/         # SOLWEIG-generated UTCI maps
-│       └── climate/         # 2m temperature data and modified for climate scenarios
+│       └── future_adjusted/         # 2m temperature data and modified for climate scenarios
 ├── notebooks/           # Exploration and experiments
-├── src/
-│   ├── preprocessing/   # Data preparation
-│   ├── models/          # CNN architecture
-│   ├── training/        # Training and validation
-│   └── evaluation/      # Metrics and visualisations
 ├── outputs/
-│   ├── predictions/     # Predicted UTCI maps
-│   ├── figures/         # Plots and evaluation results
-│   └── checkpoints/     # Saved model weights
-└── tests/               # Tests, if applicable
+│   ├── spatial_left_out/  # Spatial validation
+│     ├── predictions/     # Predicted UTCI maps
+│     ├── figures/         # Plots and evaluation results
+│     └── checkpoints/     # Saved model weights
+│   ├── climate_scenario_left_out/  # Climate scenario validation
+│     ├── predictions/     # Predicted UTCI maps
+│     ├── figures/         # Plots and evaluation results
+└── data_preperation.ipynb  # Preperation of the data
+└── model_training_visualization.ipynb  # Model training, validation, visualization for spatial and climate scenario validation
+
+
 ```
 
 ### License
