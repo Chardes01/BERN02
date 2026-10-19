@@ -1,0 +1,21 @@
+# Metadata – Processed Raster Data
+
+**Study area:** Malmö, Sweden  
+**Spatial resolution:** 5 × 5 m  
+**Coordinate reference system:** EPSG:3008 (SWEREF 99 13 30)  
+**File format:** GeoTIFF (.tif)
+
+## Input Data (`input/`)
+Contains static urban-environment predictors:
+- Building presence
+- Tree canopy presence
+- Land-use classes, stored as separate raster layers
+
+## Target Data (`target/`)
+Contains reference UTCI rasters for model training and evaluation. Files represent different dates and, where applicable, climate scenarios and future time horizons.
+
+## Temperature Data (`future_adjusted/`)
+Contains temperature rasters for the present-day reference dates and corresponding future climate scenarios (RCP4.5 and RCP8.5, for 2050 and 2100).
+
+Future temperatures are adjusted using the temperature change associated with each climate scenario and time horizon. The projected temperature change is added to the corresponding present-day temperature raster, preserving the spatial temperature pattern while representing the expected future warming. The resulting rasters are used as temperature inputs for future UTCI predictions.
+
