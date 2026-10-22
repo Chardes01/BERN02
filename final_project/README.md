@@ -78,5 +78,5 @@ The notebooks are freely accessible to anyone, as there are no paywalls or autho
 **Interoperability**. 
 Anyone with the correct versions of any dependencies (included in the `.toml` file) installed can run these notebooks and view the data. There are no extraordinary hard- or software requirements for running the code or storing the data. 
 
-**Reproducibility**. Due to the inclusion of a `.toml` file, the necessary environment to run the code will be easy to reconstruct, even in the future. Because the modified is included here, even if the original files from the open data portal of Malmö city are removed at some point, it will still be possible to run the code. 
+**Reproducibility**. Due to the inclusion of a `.toml` file, the necessary environment to run the code will be easy to reconstruct, even in the future. Because the modified data is included here, even if the original files from the open data portal of Malmö city are removed at some point, it will still be possible to run the code. 
 
