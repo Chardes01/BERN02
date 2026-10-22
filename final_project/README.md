@@ -63,3 +63,20 @@ final_project/
 ### License
 
 The Code is distributed under the MIT License. See LICENSE.txt for more information. The original data is distributed under the named licenses.
+
+
+### FAIR Principles
+
+Our aim for this repository was to adhere to the FAIR principles as much as possible. 
+
+**Findability**. 
+In terms of findability, the repository includes tags/keywords that are related to the types of models/analysis that was performed. The data is also referenced clearly with hyperlinks included making it easy to find. 
+
+**Accesibility**. 
+The notebooks are freely accessible to anyone, as there are no paywalls or authorized access necessary. The repository and all data used are publicly available.
+
+**Interoperability**. 
+Anyone with the correct versions of any dependencies (included in the `.toml` file) installed can run these notebooks and view the data. There are no extraordinary hard- or software requirements for running the code or storing the data. 
+
+**Reproducibility**. Due to the inclusion of a `.toml` file, the necessary environment to run the code will be easy to reconstruct, even in the future. Because the modified is included here, even if the original files from the open data portal of Malmö city are removed at some point, it will still be possible to run the code. 
+
