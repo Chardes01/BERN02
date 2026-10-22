@@ -76,7 +76,7 @@ In terms of findability, the repository includes tags/keywords that are related 
 The notebooks are freely accessible to anyone, as there are no paywalls or authorized access necessary. The repository and all data used are publicly available.
 
 **Interoperability**. 
-Anyone with the correct versions of any dependencies (included in the `.toml` file) installed can run these notebooks and view the data. There are no extraordinary hard- or software requirements for running the code or storing the data. 
+Anyone with the correct versions of any dependencies (included in the `.toml` file) installed can run these notebooks and view the data. There are no extraordinary hard- or software requirements for running the code or storing the data. Furthermore, the included license specifies which use-cases are allowed with the materials inside the repository.
 
 **Reproducibility**. Due to the inclusion of a `.toml` file, the necessary environment to run the code will be easy to reconstruct, even in the future. Because the modified data is included here, even if the original files from the open data portal of Malmö city are removed at some point, it will still be possible to run the code. 
 
