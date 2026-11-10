@@ -59,7 +59,7 @@ final_project/
 
 
 ```
-### Discussion and Limitations
+## 5. Discussion and Limitations
 
 The results show that data-driven models can be a faster alternative to physics-based models. However, some limitations should be considered.
 
