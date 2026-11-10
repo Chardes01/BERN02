@@ -59,6 +59,19 @@ final_project/
 
 
 ```
+### Discussion and Limitations
+
+The results show that data-driven models can be a faster alternative to physics-based models. However, some limitations should be considered.
+
+Study area: The study only focuses on Malmö. Therefore, it is unclear whether the models would perform equally well in other cities with different urban structures or climate conditions.
+
+Input data: The models strongly depend on the availability and quality of input data. Unlike physics-based models, where adjustments can be made based on physical knowledge, data-driven models rely on the provided data. Model performance may also change depending on which features are selected and how the data is preprocessed.
+
+Data consistency: The input data comes from different years. This could lead to incorrect relationships between variables, as urban structures and other features may have changed over time.
+
+Computational efficiency: Although CNN training and prediction can be computationally expensive, the overall modelling process is still faster than running the physics-based model. ElasticNet also showed relatively long runtimes. Once trained, however, the data-driven models can make predictions much faster than the physical model.
+
+Future improvements: An interesting next step would be to investigate whether similar prediction accuracy can be achieved using fewer input features. This could reduce data requirements and improve computational efficiency. It would also be useful to test how many features can be removed before model performance starts to decrease.
 
 ### License
 
